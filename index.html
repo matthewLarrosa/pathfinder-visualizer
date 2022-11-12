@@ -8,8 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="buttonCanvas" onclick="makeMap(); return false;">Generate Canvas</button>
+    <button id="startNode" onclick="selectedButton(1)">Start Node</button>
+    <button id="endNode" onclick="selectedButton(2)">End Node</button>
+    <button id="wallNode" onclick="selectedButton(3)">Wall Node</button>
+    <button id="buttonCanvas" onclick="resetMap()">Reset</button>
     <table id="pixelMap"></table>
+
     <script src="index.js"></script>
 </body>
 </html>
