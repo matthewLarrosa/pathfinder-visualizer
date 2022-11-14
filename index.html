@@ -8,11 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="startNode" onclick="selectedButton(1)">Start Node</button>
-    <button id="endNode" onclick="selectedButton(2)">End Node</button>
-    <button id="wallNode" onclick="selectedButton(3)">Wall Node</button>
-    <button id="buttonCanvas" onclick="resetMap()">Reset</button>
-    <table id="pixelMap"></table>
+    <nav class="nav__content">
+        Pathfinder Visualizer
+    </nav>
+    <div class="user__container">
+        <div class="user__content">
+            <button id="startNode" onclick="selectedButton(1)">Start Node</button>
+            <button id="endNode" onclick="selectedButton(2)">End Node</butto>
+            <button id="wallNode" onclick="selectedButton(3)">Wall Node</button>
+            <button id="buttonCanvas" onclick="resetMap()">Reset</button>
+        </div>
+    </div>
+
+    <div>
+        <table id="pixelMap"></table>
+    </div>
 
     <script src="index.js"></script>
 </body>
