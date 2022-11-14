@@ -1,7 +1,38 @@
+@font-face {
+    font-family: heading__;
+    src: url();
+}
+
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(255, 255, 255);
+}
+
+.nav__content{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(43, 43, 43);
+    font-size: 20px;
+    color: aliceblue;
+    text-shadow: 0px 2px rgb(0, 0, 0);
+}
+
+.user__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(54, 54, 54);
+}
+
+.user__content{
+    margin: 20px;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
 }
 
 table{
@@ -21,4 +52,5 @@ button{
     background-color: aliceblue;
     border: 1px solid black;
     border-radius: 20px;
+    margin: 5px;
 }
