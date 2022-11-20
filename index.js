@@ -1,3 +1,5 @@
+let currentColor = "black";
+
 let sBtn = false;
 let eBtn = false;
 let wBtn = false;
@@ -21,6 +23,12 @@ function makeMap() {
       rowWidth.appendChild(width);
     }
   }
+
+  document.querySelectorAll("td").forEach((cell) => {
+    cell.addEventListener("click", (evt) => {
+      cell.style.backgroundColor = "white";
+    });
+  });
 }
 
 function resetMap() {
