@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
+
 <body>
     <nav class="nav__content">
         Pathfinder Visualizer
@@ -15,15 +17,16 @@
         <div class="user__content">
             <button id="startNode" onclick="selectedButton(1)">Start Node</button>
             <button id="endNode" onclick="selectedButton(2)">End Node</butto>
-            <button id="wallNode" onclick="selectedButton(3)">Wall Node</button>
-            <button id="buttonCanvas" onclick="resetMap()">Reset</button>
+                <button id="wallNode" onclick="selectedButton(3)">Wall Node</button>
+                <button id="buttonCanvas" onclick="resetMap()">Reset</button>
         </div>
     </div>
 
-    <div>
+    <div class="table__container">
         <table id="pixelMap"></table>
     </div>
 
     <script src="index.js"></script>
 </body>
+
 </html>

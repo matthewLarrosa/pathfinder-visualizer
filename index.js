@@ -40,7 +40,7 @@ function resetMap() {
   }
 }
 
-function paintCell() {}
+function paintCell(){}
 
 function selectedButton(num) {
   if (num == 1) {

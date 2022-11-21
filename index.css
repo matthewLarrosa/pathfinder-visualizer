@@ -1,15 +1,15 @@
 @font-face {
-    font-family: heading__;
+    font-family: heading__font;
     src: url();
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255);
 }
 
-.nav__content{
+.nav__content {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -19,7 +19,7 @@
     text-shadow: 0px 2px rgb(0, 0, 0);
 }
 
-.user__container{
+.user__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,25 +28,31 @@
     background-color: rgb(54, 54, 54);
 }
 
-.user__content{
+.user__content {
     margin: 20px;
     width: auto;
     height: 40px;
     border-radius: 20px;
 }
 
-table{
+.table__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
     border: 1px black;
 }
 
-td{
+td {
     margin: 1px;
     height: 10px;
     width: 10px;
     background-color: grey;
 }
 
-button{
+button {
     height: 30px;
     width: 100px;
     background-color: aliceblue;
